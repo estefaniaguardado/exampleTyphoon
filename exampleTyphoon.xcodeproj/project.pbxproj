@@ -12,12 +12,15 @@
 		A14F0F1FE81CE4D840699203 /* libPods-exampleTyphoonTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A956BE693765C0D6165D79B /* libPods-exampleTyphoonTests.a */; };
 		CA5932C11DBE162F00FDE11E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5932C01DBE162F00FDE11E /* main.m */; };
 		CA5932C41DBE162F00FDE11E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5932C31DBE162F00FDE11E /* AppDelegate.m */; };
-		CA5932C71DBE162F00FDE11E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5932C61DBE162F00FDE11E /* ViewController.m */; };
+		CA5932C71DBE162F00FDE11E /* BNRItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5932C61DBE162F00FDE11E /* BNRItemsViewController.m */; };
 		CA5932CA1DBE162F00FDE11E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA5932C81DBE162F00FDE11E /* Main.storyboard */; };
 		CA5932CC1DBE162F00FDE11E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA5932CB1DBE162F00FDE11E /* Assets.xcassets */; };
 		CA5932CF1DBE162F00FDE11E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA5932CD1DBE162F00FDE11E /* LaunchScreen.storyboard */; };
 		CA5932DA1DBE163000FDE11E /* exampleTyphoonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5932D91DBE163000FDE11E /* exampleTyphoonTests.m */; };
 		CA5932E51DBE163000FDE11E /* exampleTyphoonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5932E41DBE163000FDE11E /* exampleTyphoonUITests.m */; };
+		CA5932F61DBE18E300FDE11E /* BNRItemStoreImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5932F51DBE18E300FDE11E /* BNRItemStoreImpl.m */; };
+		CA5932FA1DBE19B500FDE11E /* BNRItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5932F91DBE19B400FDE11E /* BNRItem.m */; };
+		CA5932FE1DBE1BED00FDE11E /* BNRApplicationAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5932FD1DBE1BED00FDE11E /* BNRApplicationAssembly.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,8 +53,8 @@
 		CA5932C01DBE162F00FDE11E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CA5932C21DBE162F00FDE11E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CA5932C31DBE162F00FDE11E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CA5932C51DBE162F00FDE11E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CA5932C61DBE162F00FDE11E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CA5932C51DBE162F00FDE11E /* BNRItemsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNRItemsViewController.h; sourceTree = "<group>"; };
+		CA5932C61DBE162F00FDE11E /* BNRItemsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNRItemsViewController.m; sourceTree = "<group>"; };
 		CA5932C91DBE162F00FDE11E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CA5932CB1DBE162F00FDE11E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA5932CE1DBE162F00FDE11E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -62,6 +65,13 @@
 		CA5932E01DBE163000FDE11E /* exampleTyphoonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = exampleTyphoonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA5932E41DBE163000FDE11E /* exampleTyphoonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = exampleTyphoonUITests.m; sourceTree = "<group>"; };
 		CA5932E61DBE163000FDE11E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA5932F31DBE187000FDE11E /* BNRItemStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BNRItemStore.h; path = Store/BNRItemStore.h; sourceTree = "<group>"; };
+		CA5932F41DBE18E300FDE11E /* BNRItemStoreImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BNRItemStoreImpl.h; path = Store/BNRItemStoreImpl.h; sourceTree = "<group>"; };
+		CA5932F51DBE18E300FDE11E /* BNRItemStoreImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BNRItemStoreImpl.m; path = Store/BNRItemStoreImpl.m; sourceTree = "<group>"; };
+		CA5932F81DBE19B400FDE11E /* BNRItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BNRItem.h; path = Model/BNRItem.h; sourceTree = "<group>"; };
+		CA5932F91DBE19B400FDE11E /* BNRItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BNRItem.m; path = Model/BNRItem.m; sourceTree = "<group>"; };
+		CA5932FC1DBE1BED00FDE11E /* BNRApplicationAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BNRApplicationAssembly.h; path = Assembly/BNRApplicationAssembly.h; sourceTree = "<group>"; };
+		CA5932FD1DBE1BED00FDE11E /* BNRApplicationAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BNRApplicationAssembly.m; path = Assembly/BNRApplicationAssembly.m; sourceTree = "<group>"; };
 		F1635B4760A510214BCB66F2 /* Pods-exampleTyphoonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-exampleTyphoonTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-exampleTyphoonTests/Pods-exampleTyphoonTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -141,10 +151,13 @@
 		CA5932BE1DBE162F00FDE11E /* exampleTyphoon */ = {
 			isa = PBXGroup;
 			children = (
+				CA5932FB1DBE1BC200FDE11E /* Assembly */,
+				CA5932F71DBE199200FDE11E /* Model */,
+				CA5932F21DBE183C00FDE11E /* Store */,
 				CA5932C21DBE162F00FDE11E /* AppDelegate.h */,
 				CA5932C31DBE162F00FDE11E /* AppDelegate.m */,
-				CA5932C51DBE162F00FDE11E /* ViewController.h */,
-				CA5932C61DBE162F00FDE11E /* ViewController.m */,
+				CA5932C51DBE162F00FDE11E /* BNRItemsViewController.h */,
+				CA5932C61DBE162F00FDE11E /* BNRItemsViewController.m */,
 				CA5932C81DBE162F00FDE11E /* Main.storyboard */,
 				CA5932CB1DBE162F00FDE11E /* Assets.xcassets */,
 				CA5932CD1DBE162F00FDE11E /* LaunchScreen.storyboard */,
@@ -178,6 +191,34 @@
 				CA5932E61DBE163000FDE11E /* Info.plist */,
 			);
 			path = exampleTyphoonUITests;
+			sourceTree = "<group>";
+		};
+		CA5932F21DBE183C00FDE11E /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				CA5932F31DBE187000FDE11E /* BNRItemStore.h */,
+				CA5932F41DBE18E300FDE11E /* BNRItemStoreImpl.h */,
+				CA5932F51DBE18E300FDE11E /* BNRItemStoreImpl.m */,
+			);
+			name = Store;
+			sourceTree = "<group>";
+		};
+		CA5932F71DBE199200FDE11E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CA5932F81DBE19B400FDE11E /* BNRItem.h */,
+				CA5932F91DBE19B400FDE11E /* BNRItem.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CA5932FB1DBE1BC200FDE11E /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				CA5932FC1DBE1BED00FDE11E /* BNRApplicationAssembly.h */,
+				CA5932FD1DBE1BED00FDE11E /* BNRApplicationAssembly.m */,
+			);
+			name = Assembly;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -460,7 +501,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA5932C71DBE162F00FDE11E /* ViewController.m in Sources */,
+				CA5932C71DBE162F00FDE11E /* BNRItemsViewController.m in Sources */,
+				CA5932FE1DBE1BED00FDE11E /* BNRApplicationAssembly.m in Sources */,
+				CA5932F61DBE18E300FDE11E /* BNRItemStoreImpl.m in Sources */,
+				CA5932FA1DBE19B500FDE11E /* BNRItem.m in Sources */,
 				CA5932C41DBE162F00FDE11E /* AppDelegate.m in Sources */,
 				CA5932C11DBE162F00FDE11E /* main.m in Sources */,
 			);

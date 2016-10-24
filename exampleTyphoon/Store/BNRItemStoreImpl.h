@@ -1,15 +1,14 @@
 //
-//  ViewController.h
+//  BNRItemStoreImpl.h
 //  exampleTyphoon
 //
 //  Created by Estefania Guardado on 24/10/2016.
 //  Copyright © 2016 Estefania Guardado. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "BNRItemStore.h"
 
-@interface ViewController : UIViewController
-
+@interface BNRItemStoreImpl : NSObject <BNRItemStore>
 
 @end
-
